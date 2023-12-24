@@ -4749,15 +4749,15 @@ local LogoToggle = Instance.new("ImageLabel")
 end
 
 
-local Library = Update:Window("Skinnyyy","V1",Enum.KeyCode.RightControl);
+local Library = Update:Window("Skinnyyyyy","V1",Enum.KeyCode.RightControl);
 
-Main = Library:Tab("Genneral",6026568198)
-Sta = Library:Tab("Stats",7040410130)
+Main = Library:Tab("Geral",6026568198)
+Sta = Library:Tab("Status",7040410130)
 Miscf = Library:Tab("MiscFarm",9606626859)
-Sho = Library:Tab("Fruit",7044233235)
-Shop = Library:Tab("Shop",9606625251)
-Raid = Library:Tab("Raid",9606629300)
-TPKub = Library:Tab("Teleport",9606628205)
+Sho = Library:Tab("Frutas",7044233235)
+Shop = Library:Tab("Loja",9606625251)
+Raid = Library:Tab("Raids",9606629300)
+TPKub = Library:Tab("Teleports",9606628205)
 Py = Library:Tab("Players",9606626034)
 
 
