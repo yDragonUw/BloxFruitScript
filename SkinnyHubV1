@@ -3841,7 +3841,7 @@ function Update:Window(text,logo,keybind)
 	Hubb.Position = UDim2.new(0, 480, 0, 0)
 	Hubb.Size = UDim2.new(0, 81, 0, 27)
 	Hubb.Font = Enum.Font.GothamSemibold
-	Hubb.Text = "v1"
+	Hubb.Text = "V1"
 	Hubb.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Hubb.TextSize = 17.000
 	Hubb.TextXAlignment = Enum.TextXAlignment.Left
@@ -4749,7 +4749,7 @@ local LogoToggle = Instance.new("ImageLabel")
 end
 
 
-local Library = Update:Window("Skinny Menu","V1",Enum.KeyCode.RightControl);
+local Library = Update:Window("Skinnyyy","V1",Enum.KeyCode.RightControl);
 
 Main = Library:Tab("Genneral",6026568198)
 Sta = Library:Tab("Stats",7040410130)
@@ -13535,7 +13535,7 @@ end)
         end
     end
 
-Main:Label("Skinny HUB | Sempre inovando")
+Main:Label("Skinny HUB | Sempre Inovando")
 
 
 
