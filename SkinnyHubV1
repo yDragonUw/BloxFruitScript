@@ -3841,7 +3841,7 @@ function Update:Window(text,logo,keybind)
 	Hubb.Position = UDim2.new(0, 480, 0, 0)
 	Hubb.Size = UDim2.new(0, 81, 0, 27)
 	Hubb.Font = Enum.Font.GothamSemibold
-	Hubb.Text = "Version | v1.0"
+	Hubb.Text = "v1"
 	Hubb.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Hubb.TextSize = 17.000
 	Hubb.TextXAlignment = Enum.TextXAlignment.Left
@@ -3955,7 +3955,7 @@ local LogoHub = Instance.new("ImageLabel")
             PageImage.BackgroundTransparency = 1.000
             PageImage.Position = UDim2.new(0, 5, 0, 5)
             PageImage.Size = UDim2.new(0, 15, 0, 15)
-            PageImage.Image = "rbxassetid://"..tostring(Image)
+            PageImage.Image = "rbxassetid://"..tostring(15731025433)
             
 		local MainFramePage = Instance.new("ScrollingFrame")
 		MainFramePage.Name = text.."_Page"
@@ -4749,7 +4749,7 @@ local LogoToggle = Instance.new("ImageLabel")
 end
 
 
-local Library = Update:Window("W-Skinny","1.0",Enum.KeyCode.RightControl);
+local Library = Update:Window("Skinny Menu","V1",Enum.KeyCode.RightControl);
 
 Main = Library:Tab("Genneral",6026568198)
 Sta = Library:Tab("Stats",7040410130)
@@ -13535,7 +13535,7 @@ end)
         end
     end
 
-Main:Label("Makori Hub By Domadic Hub")
+Main:Label("Skinny HUB | Sempre inovando")
 
 
 
